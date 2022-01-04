@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    text-decoration: none;
+}
+
+header {
+    padding: 30px 0; /*espaçamento pra cima e pra baixo*/
+ }
+
+ .cabeçalho {
+     display: flex;
+     flex-direction: row; /*direção na horizontal*/
+     align-items: center; /*menu do cabeçalho alinhando no centro da logo*/
+     justify-content: space-around; /*espaçamento entre os menus do cabeçalho*/
+     padding: 24px;
+ }
+
+ .logo-cabeçalho {
+     height: 94px;
+ }
+
+ .cabeçalho-menu {
+     display: flex;
+     gap: 40px;
+     flex-direction: row; /*direção na horizontal*/
+     align-items: center; /*menu do cabeçalho alinhando no centro da logo*/
+     justify-content: space-around; /*espaçamento entre os menus do cabeçalho*/
+     padding: 30px;
+ }
+
+ .cabeçalho-menu-item {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-weight: 354px;
+    font-size: 20px;
+}
+
+.cabeçalho-menu-item-botão {
+    background-color: #5E96EC;
+    Width: 230px;
+    Height: 50px;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: .5s ease all;
+    
+}
+
+.cabeçalho-inicio {
+    display: flex;
+    flex-direction: row; /*disposição na horizontal*/
+    align-items: center;
+    transition: .5s ease all;
+}
+
+.cabeçalho_inicio_escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /*da espaço entre os elementos*/
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    transition: .5s ease all;
+    
+}
+
+.cabeçalho_inicio_escrito_titulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 43px;
+    color: #150035;
+}
+
+.cabeçalho_inicio_escrito_subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #150035;
+    width: 529px;
+    height: 120px;
+}
+
+.cabeçalho_inicio_botao {
+    background-color: #5E96EC;
+    Width: 230px;
+    Height: 52px;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: .5s ease all;
+    transition: 0.5s ease-out all;
+    padding: 10px 24px;
+}
+
+.cabeçalho_inicio_imagem {
+    background: url(../../img/evolução-pokemon.svg) no-repeat center / contain;
+    display: block;
+    margin-left: auto;
+    width: 900px;
+    height: 384px;
+    margin-top: 48px;
+    position: relative;
+    bottom: 0px;
+    animation-name: flutuar;
+        animation-duration: 3.2s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+}
