@@ -8,7 +8,9 @@
 }
 
 header {
-    padding: 30px 0; /*espaçamento pra cima e pra baixo*/
+    padding: 0; /*espaçamento pra cima e pra baixo*/
+    display: flex;
+    align-items: center;
  }
 
  .cabeçalho {
@@ -16,7 +18,7 @@ header {
      flex-direction: row; /*direção na horizontal*/
      align-items: center; /*menu do cabeçalho alinhando no centro da logo*/
      justify-content: space-around; /*espaçamento entre os menus do cabeçalho*/
-     padding: 24px;
+     padding: 15px;
  }
 
  .logo-cabeçalho {
@@ -33,7 +35,7 @@ header {
      flex-direction: row; /*direção na horizontal*/
      align-items: center; /*menu do cabeçalho alinhando no centro da logo*/
      justify-content: space-around; /*espaçamento entre os menus do cabeçalho*/
-     padding: 30px;
+     padding: 0px;
  }
 
  .cabeçalho-menu-item {
@@ -68,11 +70,11 @@ header {
 .cabeçalho_inicio_escrito {
     display: flex;
     flex-direction: column;
-    gap: 20px; /*da espaço entre os elementos*/
-    margin: 0;
+    gap: 10px; /*da espaço entre os elementos*/
+    margin: 10px 100px;
     padding: 0;
-    align-items: center;
     transition: .5s ease all;
+    max-width: 650px;
     
 }
 
@@ -81,6 +83,7 @@ header {
     font-weight: 700;
     font-size: 43px;
     color: #150035;
+    
 }
 
 .cabeçalho_inicio_escrito_subtitulo {
@@ -112,10 +115,10 @@ header {
     background: url(../../img/evolução-pokemon.svg) no-repeat center / contain;
     display: block;
     margin-left: auto;
-    width: 900px;
+    width: 800px;
     height: 384px;
     justify-self: right;
-    margin-top: 48px;
+    margin-top: 8px;
     margin-right: 30px;
     position: relative;
     bottom: 0px;
