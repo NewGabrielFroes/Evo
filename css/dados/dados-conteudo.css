@@ -64,6 +64,7 @@
         align-items: center;
         display: flex;
         flex-direction: row-reverse;
+        height: 474px;
         justify-content: space-around;
         margin: 1rem 2rem 1rem 2rem;
     }
@@ -71,6 +72,7 @@
     .dados__conteudo1, .dados__conteudo3{
         align-items: center;
         display: flex;
+        height: 474px;
         justify-content: space-around;
         margin: 1rem 2rem 1rem 2rem;
     }
