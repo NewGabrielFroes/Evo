@@ -1,0 +1,132 @@
+footer {
+    text-align: center;
+    background-color: #220F71;
+    height: 517px;
+    padding: 40px 0 ;
+    margin-top: 20em;
+}
+
+.container__rodape{
+    margin: 0 auto;
+    position: relative;
+    max-width: 1980px;
+}
+
+.div__logo-rodape {
+    text-align: center;
+    bottom: 30px;
+}
+
+.logo-rodape {
+    margin: 0 30px;
+    position: relative;
+    top: 340px;
+
+}
+
+.social{
+    margin: 0 auto;
+    position: relative;
+    max-width: 1140px;
+}
+
+.rede{
+    width: 90px;
+    position: absolute;
+    right: 7em;
+}
+
+.ul-social{
+    display: flex;
+}
+
+.ul-social {
+    color: white;
+}
+
+.ul-social a {
+    font-family:'Roboto', sans-serif ;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+
+/* TEXTO RODAPÉ */
+
+.txt-rodape {
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    position: relative;
+    right:10px ;
+    bottom: 20px;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 15px;
+    color: white;
+}
+
+.txt-rodape-1 {
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    position: relative;
+    right:10px ;
+    bottom: 30px;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* COMPONENTES */
+
+
+.div-componentes-0{
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-top: -50px;
+    margin-left: -1.5em;
+}
+
+.div-componentes {
+    width: 540px;
+    position: absolute;
+}
+
+.componentes {
+    top: 0;
+    text-decoration: none;
+    list-style: none;
+    position: absolute;    
+    }
+
+
+.componentes-2 {
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    margin-left: 8em;
+}
+
+
+.ul-componentes li {
+    color: white;
+    font-size: 15px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+
+.ul-componentes li a, .ul-componentes-2 li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.ul-componentes li a:hover, .ul-componentes-2 li a:hover {
+    background: aquamarine;
+    transition: background 1s;
+}
