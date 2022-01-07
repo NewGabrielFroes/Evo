@@ -41,6 +41,7 @@ header {
  .cabeçalho-menu-item {
     font-family: 'Roboto', sans-serif;
     color: #000000;
+    text-decoration: none;
     font-weight: 354px;
     font-size: 20px;
 }
