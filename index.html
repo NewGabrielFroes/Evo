@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/dados/dados-conteudo.css">
     <link rel="stylesheet" href="./principal.css">
     <link rel="stylesheet" href="css/desenvolvimento/desenvolvimento.css">
+    <link rel="stylesheet" href="css/fale-conosco/form.css">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -43,8 +44,8 @@
             <a href="index.html" class="cabeçalho-menu-item">Início</a>
             <a href="" class="cabeçalho-menu-item">Sobre</a>
             <a href="#dados" class="cabeçalho-menu-item">Dados</a>
-            <a href="" class="cabeçalho-menu-item">Cursos</a>
-            <a href="" class="cabeçalho-menu-item">Contato</a>
+            <a href="#cursos" class="cabeçalho-menu-item">Cursos</a>
+            <a href="#contato" class="cabeçalho-menu-item">Contato</a>
             <button class="cabeçalho-menu-item-botão"> Cadastro </button>
         </nav>
     </header>
@@ -55,7 +56,7 @@
             <div class="cabeçalho_inicio_escrito">
                 <h1 class="cabeçalho_inicio_escrito_titulo"> <p>Sua Evolução para o </p>Mercado Financeiro</h1>
                 <h2 class="cabeçalho_inicio_escrito_subtitulo">Somos uma plataforma educacional gamificada especializada em cursos de capacitação de competências pessoais e profissionais visando a empregabilidade e posterior entrada no mercado financeiro. </p> </h2>
-                <button class="cabeçalho_inicio_botao">começar</button>
+                <button class="cabeçalho_inicio_botao">Começar</button>
             </div>
             <div class="cabeçalho_inicio_imagem"> </div>
         </section>
@@ -591,5 +592,45 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Option 1: end Bootstrap Bundle with Popper -->
+         <!--Fale Conosco-->
+
+    <div class="div1-form" id="contato" >
+        <section class="section-form">
+            <div style="width: 940px; margin: 0 auto;">
+                <div class="form-topo">
+                    <h2 class="fale-conosco">Fale conosco</h2>
+                    <img class="pikachu" src="img/pika.png" alt="">
+                </div>
+            </div>
+            <form class="formulario">
+                <div class="div-nome-email">
+    
+                    <div class="nome-email">
+                        <label for="nome">Nome:</label>
+                        <div class="input-nome">
+                            <input type="text" id="nome" class="input-padrao" required>
+                        </div>
+                    </div>
+                    
+                    <div class="nome-email">
+                        <label for="email">Email:</label>
+                        <div class="input-email">
+                            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+                        </div>
+                    </div>  
+    
+                </div>
+                <div class="div-msg">
+                    <div class="div-msg2">
+                        <label for="mensagem">Mensagem:</label>
+                        <div class="txt-msg">
+                            <textarea id="mensagem" cols="70" rows="10" class="input-padrao" required placeholder="Sua mensagem aqui..."></textarea>
+                            <button class="enviar" type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
 </body>
 </html>
