@@ -35,6 +35,9 @@
         font-size: 40px;
         justify-content: center;
     }
+    li > span {
+        vertical-align: middle;
+    }
     .li1{
         color: #140035;
     }
