@@ -57,8 +57,14 @@ header {
     font-size: 20px;
     color: #FFFFFF;
     cursor: pointer;
-    transition: .5s ease all;
+    transition: .5s ease all; 
+    transition: background 1s;
     
+    
+}
+
+.cabeçalho-menu-item-botão:hover { 
+    background: #1961cc ;
 }
 
 .cabeçalho-inicio {
@@ -110,6 +116,11 @@ header {
     transition: .5s ease all;
     transition: 0.5s ease-out all;
     padding: 10px 24px;
+    transition: background 1s;
+}
+
+.cabeçalho_inicio_botao:hover {
+    background: #1961cc ;
 }
 
 .cabeçalho_inicio_imagem {
