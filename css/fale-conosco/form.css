@@ -1,0 +1,97 @@
+
+.div1-form{
+    height: 500px;
+    position: relative;
+}
+.section-form{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.form-topo{
+    position: relative;
+    margin: 0 auto;
+    display: inline-flex;
+    width: 940px;
+}
+
+.fale-conosco{
+    color: #140035;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    left: 13em;
+    top: 50px;
+}
+
+.pikachu{
+    position: absolute;
+    right: 5em;
+}
+
+.formulario{
+    margin: 7.5em auto 0 auto;
+    width: 1170px;
+    height: 471px;
+    position: relative;
+    background: #5E96EC;
+    border-radius: 30px;
+}
+
+.formulario .div-nome-email{
+    margin-top: 15px;
+    margin-left: 5rem;
+    width: 100%;
+    position: relative;
+    display:inline-flex;
+    max-width: 1980px;
+    padding: 20px;
+}
+
+.div-nome-email input{
+    padding: 0 15px;
+    margin-top: 10px;
+    width: 389px;
+    height: 53px;
+    border-radius: 15px;
+    border: none;
+}
+
+#mensagem{
+    padding: 10px 15px;
+    margin-top: 10px;
+    width: 968px;
+    height: 172px;
+    border-radius: 15px;
+    border: none;
+}
+
+.nome-email{
+    width: 45%;
+    position: relative;
+}
+
+.div-msg{
+    margin-top: 4em;
+    margin-left: 5em;
+}
+
+.div-msg2{
+    display: block;
+    position: relative;
+}
+
+.div-msg2 label{
+    margin-bottom: 15px;
+}
+
+.enviar{
+    background: none;
+    border: none;
+    position: absolute;
+    color: #5E96EC;
+    z-index: 1;
+    right: 9.5em;
+    bottom: 20px;
+}
