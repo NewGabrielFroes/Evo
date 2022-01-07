@@ -1,0 +1,147 @@
+.desenvolvimento{
+    
+   /*width: calc(100% - 1152px;*/
+   margin-left: 2rem;
+   margin-right: 2rem;
+   margin-top: 6rem;
+   /* border: 2px solid; */
+
+}
+
+.desenvolvimento__parte1{
+  
+  /* border: 2px solid blue; */
+  display: flex;
+  margin-left: 3.125rem;
+  margin-bottom: 5.1875rem;
+  
+  
+}
+
+.desenvolvimento__parte1--img{
+  margin-top: 1.4rem;
+}
+
+.desenvolvimento__parte1--texto{
+  margin-left: 3.44rem;
+}
+.desenvolvimento__parte1--texto--titulo{
+  color:  #150035;
+  font-family: Roboto, sans-serif;
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 2.887rem ;
+}
+
+.desenvolvimento__parte1--texto--paragrafo{
+  color: #220F71;
+  font-family: Roboto, sans-serif;
+  line-height: 1.4375rem;
+  font-weight: normal;
+  font-size: 1.25rem;
+  text-align: justify;
+  width: 28.81rem;
+}
+
+.desenvolvimento__parte2{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5.1875rem;
+}
+
+.desenvolvimento__parte2--card{
+  border-radius: 2rem;
+  border: 2px solid #5E96EC;
+  flex-direction: column;
+  display: flex;
+  height: 36.5625rem;
+  width: 22.625rem;
+  
+}
+
+.desenvolvimento__parte2--card--img1{
+  margin: 2rem;
+  position: relative;
+}
+
+.desenvolvimento__parte2--card--dados1{
+  display: flex;
+  font-family: Roboto, sans-serif, #150035;
+  font-weight: bold;
+  font-size: 1.25rem;
+  justify-content:space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.desenvolvimento__parte2--card--dados2{
+  margin-left: 2rem;
+}
+
+.desenvolvimento__parte2--card--dados2--parte2{
+  font-family: Roboto, sans-serif, #150035;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-top: 1.2rem;
+ 
+}
+
+.desenvolvimento__parte2--card--dados3{
+  
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.botao__comecar{
+  align-items: center;
+  justify-content: center;
+  background: #150035;
+  border-radius: 3.25rem;
+  color: #F9F9F9;
+  display: inline-flex;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 9.125rem;
+  height: 2.94rem;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 770px) {
+
+  .desenvolvimento__parte1{
+    margin-left: 0;
+
+  }
+
+  .desenvolvimento__parte1--texto{
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    
+  }
+
+  .desenvolvimento__parte1--texto--titulo{
+    
+    text-align: center;
+  }
+  
+
+  .desenvolvimento__parte1--texto--paragrafo{
+    width: auto;
+  }
+
+  .desenvolvimento__parte1--img{
+    display: none;
+  }
+
+  .desenvolvimento__parte2{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .desenvolvimento__parte2--card{
+    margin-bottom: 2rem;
+  }
+}
