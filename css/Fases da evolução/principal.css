@@ -89,3 +89,23 @@
 /* 2 SECAO MAIN */
 
 
+@media screen and (max-width: 770px) {
+
+    .align-items-end{
+        display: flex;
+        justify-content: center;
+    }
+
+   
+
+    .evolucao{
+        display: flex;
+        justify-content: center;
+    }
+
+    .paragrafo{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+}
