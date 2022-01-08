@@ -72,6 +72,7 @@ header {
     flex-direction: row; /*disposição na horizontal*/
     align-items: center;
     transition: .5s ease all;
+    margin-top: 100px;
 }
 
 .cabeçalho_inicio_escrito {
@@ -81,7 +82,9 @@ header {
     margin: 10px 90px;
     padding: 0;
     transition: .5s ease all;
-    max-width: 650px;
+    max-width: 400px;
+    margin-top: 40px;
+    line-height: 30px;
     
 }
 
@@ -90,6 +93,8 @@ header {
     font-weight: 700;
     font-size: 43px;
     color: #150035;
+    line-height: 50px;
+    margin-top: -10px;
     
 }
 
@@ -100,6 +105,7 @@ header {
     color: #150035;
     width: 529px;
     height: 120px;
+    max-width: 400px;
 }
 
 .cabeçalho_inicio_botao {
@@ -127,16 +133,23 @@ header {
     background: url(../../img/evolução-pokemon.svg) no-repeat center / contain;
     display: block;
     margin-left: auto;
-    width: 800px;
+    width: 650px;
     height: 384px;
     justify-self: right;
-    margin-top: -240px;
+    margin-top: -340px;
     margin-right: 50px;
     z-index: -1;
-    animation-name: flutuar;
-        animation-duration: 3.2s;
-        animation-timing-function: ease;
-        animation-iteration-count: infinite;
+    animation: float 3s linear infinite;
+}
+
+@keyframes float{
+    0%, 100% {
+ transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(-3.5rem);
+        z-index: -1;
+    }
 }
 
 .cabeçalho_sobre {
@@ -161,6 +174,10 @@ header {
     transition: .5s ease all;
     max-width: 500px; 
     margin: 10px 50px;
+}
+
+.img_sobre_mercado:hover {
+    transform: translateY(-30px);
 }
 
 .fundo_azul {
