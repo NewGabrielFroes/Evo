@@ -19,7 +19,6 @@ header {
      align-items: center; /*menu do cabeçalho alinhando no centro da logo*/
      justify-content: space-between; /*espaçamento entre os menus do cabeçalho*/
      padding: 15px;
-     border-bottom: 0.1rem solid;
  }
 
  .logo-cabeçalho {
