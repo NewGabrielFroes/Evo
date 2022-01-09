@@ -156,30 +156,3 @@ footer {
     text-align: center;
     margin-top: 120px;
 }
-
-
-@media screen and (min-width: 0) {
-    .div__logo-rodape, .container__rodape, .div-componentes-0 {
-        max-width: 100%;
-        flex: 100%;
-    }
-
-    .container__rodape {
-        display: block;
-    }
-
-    .div-componentes-0 {
-        width: 100%;
-        position: relative;
-    }
-
-    .logo-rodape {
-        width: 30%;
-        top: 100px;
-    }
-    
-    .div-componentes {
-        display: inline-flex;
-        max-width: 100%;
-    }
-}
