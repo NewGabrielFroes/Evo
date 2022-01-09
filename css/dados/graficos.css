@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap%27');
+
+/* CONFIG. GERAL */
+
+.container {
+  /*  border: solid 3px red;*/
+}
+.row {  
+ /*  border: solid 3px green;*/
+}
+
+.col {
+  /* border: solid 3px yellow; */
+}
+
+/* CONFIG. GERAL */
+
+/* 1 SECAO MAIN */
+
+.titulo-grafico {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #150035;
+    text-align: center;
+    padding: 1em 0 0.5em 0;
+}
+
+.subtitulo-grafico{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #220F71;
+}
+
+.texto-grafico  {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #150035;
+    padding: 1em 0 0.5em 0;
+    
+}
+
+.paragrafo-grafico {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #220F71;
+}
+
+.img-grafico {
+    width: 100%;
+    object-fit: contain;
+    max-height: 300px;
+    padding: 1em 0 1em 0;
+}
+
+
+.bola-grafico {
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 50%;
+    margin: 0.5em 0 0.5em 0.5em;
+}
+
+.ms-5 {
+    margin-left: 10em;
+}
