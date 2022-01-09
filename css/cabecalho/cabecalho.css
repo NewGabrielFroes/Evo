@@ -17,34 +17,37 @@ header {
      display: flex;
      flex-direction: row; /*direção na horizontal*/
      align-items: center; /*menu do cabeçalho alinhando no centro da logo*/
-     justify-content: space-around; /*espaçamento entre os menus do cabeçalho*/
+     justify-content: space-between; /*espaçamento entre os menus do cabeçalho*/
      padding: 15px;
+     border-bottom: 0.1rem solid;
  }
 
  .logo-cabeçalho {
      height: 94px;
+     position: relative;
+     width: 300px;
  }
 
  .cabeçalho_inicio {
      width: 100%;
  }
 
- .cabeçalho-menu {
+ /* .cabeçalho-menu {
      display: flex;
      gap: 40px;
      flex-direction: row; /*direção na horizontal*/
-     align-items: center; /*menu do cabeçalho alinhando no centro da logo*/
-     justify-content: space-around; /*espaçamento entre os menus do cabeçalho*/
-     padding: 0px;
- }
+     /* align-items: center; menu do cabeçalho alinhando no centro da logo */
+     /* justify-content: space-around; espaçamento entre os menus do cabeçalho */
+     /* padding: 0px; */
+ /* }  */
 
- .cabeçalho-menu-item {
+ /* .cabeçalho-menu-item {
     font-family: 'Roboto', sans-serif;
     color: #000000;
     text-decoration: none;
     font-weight: 354px;
     font-size: 20px;
-}
+} */
 
 .cabeçalho-menu-item-botão {
     background-color: #5E96EC;
@@ -71,7 +74,7 @@ header {
     display: flex;
     flex-direction: row; /*disposição na horizontal*/
     align-items: center;
-    transition: .5s ease all;
+    transition: .3s ease all;
     margin-top: 100px;
 }
 

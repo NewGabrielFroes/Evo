@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/cabecalho/menu.css">
     <link rel="stylesheet" href="css/persona/persona.css">
     <link rel="stylesheet" href="css/persona/persona__imagens.css">
     <link rel="stylesheet" href="css/persona/persona__conteudo.css">
@@ -26,6 +27,10 @@
     <link rel="stylesheet" href="css/fale-conosco/form.css">
     <link rel="stylesheet" href="css/rodapé/rodape.css">
 
+
+    <!--Icones-->
+    <link rel="stylesheet" href="fonts/style.css">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- end Bootstrap CSS -->
@@ -41,13 +46,37 @@
     <!--cabeçalho-->
     <header class="cabeçalho">
         <img class="logo-cabeçalho" src="img/Evo.svg" alt="Logo da Evo Mercado Financeiro"> 
-        <nav class="cabeçalho-menu">
-            <a href="index.html" class="cabeçalho-menu-item">Início</a>
-            <a href="#sobre" class="cabeçalho-menu-item">Sobre</a>
-            <a href="#dados" class="cabeçalho-menu-item">Dados</a>
-            <a href="#cursos" class="cabeçalho-menu-item">Cursos</a>
-            <a href="#contato" class="cabeçalho-menu-item">Contato</a>
-            <button class="cabeçalho-menu-item-botão"> Cadastro </button>
+        <nav class="cabecalho-menu">
+            <ul class="menu">
+                <li class="cabeçalho-menu-item">
+                    <a class="menu__link" href="index.html">Início</a>
+                </li>
+    
+                <li class="cabeçalho-menu-item">
+                    <a class="menu__link" href="#sobre">Sobre</a>
+                </li>
+    
+                <li class="cabeçalho-menu-item">
+                    <a class="menu__link" href="#dados">Dados</a>
+                </li>
+    
+                <li class="cabeçalho-menu-item">
+                    <a class="menu__link" href="#cursos">Cursos</a>
+                </li>
+    
+                <li class="cabeçalho-menu-item">
+                    <a class="menu__link" href="#contato">Contato</a>
+                </li>
+    
+                <li class="cabeçalho-menu-item">
+                    <a class="menu__link--botao"  href="https://form.jotform.com/220075983872666"> 
+                        <button class="cabeçalho-menu-item-botão"> Cadastro </button>
+                    </a>
+                </li>
+
+            </ul>
+            <div class= "menu__icon icon-menu"></div>
+            <div class="menu__icon icon-close"></div>
         </nav>
     </header>
 
@@ -723,5 +752,7 @@
         </div>
         <p class="copyright"> &copy; 2021 Evo. Todos os direitos reservados.</p>
     </footer>
+     <!--main.js-->
+     <script src="./main.js"></script>
 </body>
 </html>
