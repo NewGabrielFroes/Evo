@@ -156,6 +156,7 @@ header {
 
 .cabeçalho_sobre {
     margin-top: 70px;
+    margin-bottom: 40px;
     width: 100%;
     height: auto;
     display: flex;
@@ -243,9 +244,10 @@ header {
     }
 
     .cabeçalho_descricao {
-        width: 100%;
+        width: 99%;
         height: 400px;
         background-size: cover;
+        align-self: flex-end;
     }
 
     .cabeçalho_textoSobre {
@@ -293,10 +295,10 @@ header {
     }
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 320px) {
 
     .cabeçalho_textoSobre {
-        font-size: 15px;
+        font-size: 15.1px;
     }
     
     .cabeçalho_citaçaoSobre {
