@@ -157,21 +157,21 @@ header {
 .cabeçalho_sobre {
     margin-top: 70px;
     width: 100%;
-    height: 400px;
+    height: auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .cabeçalho_voceSabe {
     width: 50%;
-    background-image: url("../../img/vocesabe.png");
-    background-repeat: no-repeat;
 }
 
 .cabeçalho_descricao {
     width: 50%;
     background-image: url("../../img/fundoAzul.png");
     background-repeat: no-repeat;
+    background-size: contain;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -183,7 +183,7 @@ header {
 }
 .cabeçalho_paragrafos {
     width: 70%;
-    height: fit-content;
+    height: auto;
 }
 
 .cabeçalho_textoSobre {
@@ -202,8 +202,105 @@ header {
     color: #FFFFFF;
 }
 
+@media screen and (max-width: 1130px) {
+    .cabeçalho_textoSobre {
+        font-size: 16px;
+    }
+
+    .cabeçalho_citaçaoSobre {
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (max-width: 990px) {
+    .cabeçalho_textoSobre {
+        font-size: 14px;
+    }
+
+    .cabeçalho_citaçaoSobre {
+        position: relative;
+        bottom: 15px;
+        font-size: 16px;
+    }
+}
+
+
 @media screen and (max-width:767px){
     .logo-cabeçalho{
         justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 738px) {
+    .cabeçalho_sobre {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .cabeçalho_voceSabe {
+        width: 100%;
+    }
+
+    .cabeçalho_descricao {
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+    }
+
+    .cabeçalho_textoSobre {
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        color: #FFFFFF;
+       
+    }
+    
+    .cabeçalho_citaçaoSobre {
+        margin-top: 20px;
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cabeçalho_descricao {
+        align-items: flex-end;
+    }
+    
+
+    .cabeçalho_paragrafos {
+        width: 70%;
+        height: auto;
+    }
+
+    .cabeçalho_textoSobre {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        color: #FFFFFF;
+       
+    }
+    
+    .cabeçalho_citaçaoSobre {
+        margin-top: 20px;
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 280px) {
+
+    .cabeçalho_textoSobre {
+        font-size: 15px;
+    }
+    
+    .cabeçalho_citaçaoSobre {
+        margin-top: 20px;
+        font-size: 16px;
     }
 }
