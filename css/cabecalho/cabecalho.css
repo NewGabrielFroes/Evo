@@ -131,7 +131,7 @@ header {
     background: #1961cc ;
 }
 
-/* .cabeçalho_inicio_imagem {
+.cabeçalho_inicio_imagem {
     background: url(../../img/evolução-pokemon.svg) no-repeat center / contain;
     display: block;
     margin-left: auto;
@@ -142,7 +142,7 @@ header {
     margin-right: 50px;
     z-index: -1;
     animation: float 3s linear infinite;
-} */
+}
 
 @keyframes float{
     0%, 100% {
